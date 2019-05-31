@@ -4,18 +4,17 @@ epollicmp是一个测试网络的简单工具，没有发包间隔的限制，�
 
 epollicmp is a project about ping test without interval limit  
 
-
+# 用法
 用法 ./epollicmp destaddr(url/ip) icmp_interval(ms) icmp_pkglen(byte) 
 
 USAGE:  ./epollicmp destaddr(url/ip) icmp_interval(ms) icmp_pkglen(byte) 
-
 
 使用 CTRL+C 停止
 
 use CTRL+C to stop
 
 
-打印示例：
+# 打印示例：
 
 ./epollicmp www.baidu.com 100 200
 
